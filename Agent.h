@@ -14,6 +14,8 @@ public:
 
     shared_ptr<Board> move(int);
     shared_ptr<Board> checkStatus(const shared_ptr<Board> &status) {return status;}
+	bool checkWin();
+    bool checkOppoWin();
 
 private:
 

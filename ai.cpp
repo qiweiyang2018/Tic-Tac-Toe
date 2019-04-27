@@ -1,8 +1,10 @@
 //
 // Created by qiwei on 4/26/2019.
 //
+#include <iostream>
 #include <random>
 #include "Agent.h"
+using namespace std;
 
 AI::AI(const string& difficulty)
 {
