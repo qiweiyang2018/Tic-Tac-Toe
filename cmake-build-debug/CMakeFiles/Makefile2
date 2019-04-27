@@ -65,39 +65,39 @@ CMAKE_SOURCE_DIR = /home/qiwei/CLionProjects/tic-tac-toe
 CMAKE_BINARY_DIR = /home/qiwei/CLionProjects/tic-tac-toe/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/ttt.dir
+# Target rules for target CMakeFiles/tic-tac-toe.dir
 
 # All Build rule for target.
-CMakeFiles/ttt.dir/all:
-	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/depend
-	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/qiwei/CLionProjects/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target ttt"
-.PHONY : CMakeFiles/ttt.dir/all
+CMakeFiles/tic-tac-toe.dir/all:
+	$(MAKE) -f CMakeFiles/tic-tac-toe.dir/build.make CMakeFiles/tic-tac-toe.dir/depend
+	$(MAKE) -f CMakeFiles/tic-tac-toe.dir/build.make CMakeFiles/tic-tac-toe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/qiwei/CLionProjects/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target tic-tac-toe"
+.PHONY : CMakeFiles/tic-tac-toe.dir/all
 
 # Include target in all.
-all: CMakeFiles/ttt.dir/all
+all: CMakeFiles/tic-tac-toe.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ttt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiwei/CLionProjects/tic-tac-toe/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ttt.dir/all
+CMakeFiles/tic-tac-toe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiwei/CLionProjects/tic-tac-toe/cmake-build-debug/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tic-tac-toe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiwei/CLionProjects/tic-tac-toe/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/ttt.dir/rule
+.PHONY : CMakeFiles/tic-tac-toe.dir/rule
 
 # Convenience name for target.
-ttt: CMakeFiles/ttt.dir/rule
+tic-tac-toe: CMakeFiles/tic-tac-toe.dir/rule
 
-.PHONY : ttt
-
-# clean rule for target.
-CMakeFiles/ttt.dir/clean:
-	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/clean
-.PHONY : CMakeFiles/ttt.dir/clean
+.PHONY : tic-tac-toe
 
 # clean rule for target.
-clean: CMakeFiles/ttt.dir/clean
+CMakeFiles/tic-tac-toe.dir/clean:
+	$(MAKE) -f CMakeFiles/tic-tac-toe.dir/build.make CMakeFiles/tic-tac-toe.dir/clean
+.PHONY : CMakeFiles/tic-tac-toe.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/tic-tac-toe.dir/clean
 
 .PHONY : clean
 

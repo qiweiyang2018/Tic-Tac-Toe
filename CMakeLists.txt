@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.13)
-project(ttt)
+project(tic-tac-toe)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ttt main.cpp board.h Agent.h ai.cpp gameManager.h)
+add_executable(tic-tac-toe main.cpp board.h Agent.h agent.cpp board.cpp)

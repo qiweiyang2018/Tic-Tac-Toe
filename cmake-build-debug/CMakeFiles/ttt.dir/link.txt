@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/ttt.dir/main.cpp.o CMakeFiles/ttt.dir/ai.cpp.o  -o ttt 
+/usr/bin/c++  -g   CMakeFiles/ttt.dir/main.cpp.o CMakeFiles/ttt.dir/ai.cpp.o CMakeFiles/ttt.dir/board.cpp.o  -o ttt 

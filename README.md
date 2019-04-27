@@ -27,7 +27,7 @@ only win when the opponent makes mistakes. see [reference].
 
 ### Terminology
 
-Corners: Four Corners of the board.  
+Corner: Four Corners of the board.
 
 ![Corner](corner.png) 
 
@@ -36,13 +36,25 @@ Center: the very center slot of 3X3
 ![center](center.png)
 
 
-board Side: slots are not corners or center
+Side: slots are not the corners or the center
 
 ![side](side.png)
 
+In this game, Player X always moves first. 
 
-### Strategies
+### Optimal Strategies
 
+1. If X begins with a corner, the only chance that O does not lose is to
+   take the center. Then X's best shot is to take the opposite corner of
+   its first move. If O does not take a side at the 2nd step, X wins,
+   otherwise a draw.
+
+2. If X begins with the center, O must take one of corners, otherwise O
+   loses. The only chance that X can possibly win is to take O's
+   diagonally-opposite corner. If O then takes one of sides, O loses,
+   otherwise a draw.
+   
+3. If X begins with a side, which is a bad move for X. 
 
  
 [reference] (http://www.cs.jhu.edu/~jorgev/cs106/ttt.pdf)

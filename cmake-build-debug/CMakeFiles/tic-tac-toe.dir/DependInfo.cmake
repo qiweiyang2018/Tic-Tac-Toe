@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/qiwei/CLionProjects/tic-tac-toe/ai.cpp" "/home/qiwei/CLionProjects/tic-tac-toe/cmake-build-debug/CMakeFiles/ttt.dir/ai.cpp.o"
-  "/home/qiwei/CLionProjects/tic-tac-toe/board.cpp" "/home/qiwei/CLionProjects/tic-tac-toe/cmake-build-debug/CMakeFiles/ttt.dir/board.cpp.o"
-  "/home/qiwei/CLionProjects/tic-tac-toe/main.cpp" "/home/qiwei/CLionProjects/tic-tac-toe/cmake-build-debug/CMakeFiles/ttt.dir/main.cpp.o"
+  "/home/qiwei/CLionProjects/tic-tac-toe/agent.cpp" "/home/qiwei/CLionProjects/tic-tac-toe/cmake-build-debug/CMakeFiles/tic-tac-toe.dir/agent.cpp.o"
+  "/home/qiwei/CLionProjects/tic-tac-toe/board.cpp" "/home/qiwei/CLionProjects/tic-tac-toe/cmake-build-debug/CMakeFiles/tic-tac-toe.dir/board.cpp.o"
+  "/home/qiwei/CLionProjects/tic-tac-toe/main.cpp" "/home/qiwei/CLionProjects/tic-tac-toe/cmake-build-debug/CMakeFiles/tic-tac-toe.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

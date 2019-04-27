@@ -2,35 +2,41 @@
 // Created by qiwei on 4/26/2019.
 //
 
-#include "board.h"
-#include <memory>
 
 #ifndef TTT_AGENT_H
 #define TTT_AGENT_H
 
+
+#include <string>
+using namespace std;
+
+class Board;
+
 class Agent
 {
+	friend class Board;
 public:
-
-    shared_ptr<Board> move(int);
-    shared_ptr<Board> checkStatus(const shared_ptr<Board> &status) {return status;}
-	bool checkWin();
-    bool checkOppoWin();
+	Agent();
+	static int count;
+    void move(vector<vector<int>>& );
+	bool checkValidSpace(int, const vector<vector<int>>&);
 
 private:
-
-    shared_ptr<Board> status;
+	string symbol;
+	string name;
 };
 
 
-class AI : Agent
+class Ai : Agent
 {
 public:
-    AI(const string& difficulty = "medium");
+    Ai(const string& difficulty = "medium");
 
-    void autoMove(shared_ptr<Board>&);
+    void autoMove(vector<vector<int>>&);
 private:
-    shared_ptr<Board> status;
+
+	string symbol;
+	string name;
     double rand;
 };
 #endif //TTT_AGENT_H

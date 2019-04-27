@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ttt.dir/main.cpp.o"
   "CMakeFiles/ttt.dir/ai.cpp.o"
+  "CMakeFiles/ttt.dir/board.cpp.o"
   "ttt.pdb"
   "ttt"
 )

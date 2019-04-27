@@ -111,44 +111,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ttt
+# Target rules for targets named tic-tac-toe
 
 # Build rule for target.
-ttt: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ttt
-.PHONY : ttt
+tic-tac-toe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tic-tac-toe
+.PHONY : tic-tac-toe
 
 # fast build rule for target.
-ttt/fast:
-	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/build
-.PHONY : ttt/fast
+tic-tac-toe/fast:
+	$(MAKE) -f CMakeFiles/tic-tac-toe.dir/build.make CMakeFiles/tic-tac-toe.dir/build
+.PHONY : tic-tac-toe/fast
 
-ai.o: ai.cpp.o
+agent.o: agent.cpp.o
 
-.PHONY : ai.o
+.PHONY : agent.o
 
 # target to build an object file
-ai.cpp.o:
-	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/ai.cpp.o
-.PHONY : ai.cpp.o
+agent.cpp.o:
+	$(MAKE) -f CMakeFiles/tic-tac-toe.dir/build.make CMakeFiles/tic-tac-toe.dir/agent.cpp.o
+.PHONY : agent.cpp.o
 
-ai.i: ai.cpp.i
+agent.i: agent.cpp.i
 
-.PHONY : ai.i
+.PHONY : agent.i
 
 # target to preprocess a source file
-ai.cpp.i:
-	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/ai.cpp.i
-.PHONY : ai.cpp.i
+agent.cpp.i:
+	$(MAKE) -f CMakeFiles/tic-tac-toe.dir/build.make CMakeFiles/tic-tac-toe.dir/agent.cpp.i
+.PHONY : agent.cpp.i
 
-ai.s: ai.cpp.s
+agent.s: agent.cpp.s
 
-.PHONY : ai.s
+.PHONY : agent.s
 
 # target to generate assembly for a file
-ai.cpp.s:
-	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/ai.cpp.s
-.PHONY : ai.cpp.s
+agent.cpp.s:
+	$(MAKE) -f CMakeFiles/tic-tac-toe.dir/build.make CMakeFiles/tic-tac-toe.dir/agent.cpp.s
+.PHONY : agent.cpp.s
+
+board.o: board.cpp.o
+
+.PHONY : board.o
+
+# target to build an object file
+board.cpp.o:
+	$(MAKE) -f CMakeFiles/tic-tac-toe.dir/build.make CMakeFiles/tic-tac-toe.dir/board.cpp.o
+.PHONY : board.cpp.o
+
+board.i: board.cpp.i
+
+.PHONY : board.i
+
+# target to preprocess a source file
+board.cpp.i:
+	$(MAKE) -f CMakeFiles/tic-tac-toe.dir/build.make CMakeFiles/tic-tac-toe.dir/board.cpp.i
+.PHONY : board.cpp.i
+
+board.s: board.cpp.s
+
+.PHONY : board.s
+
+# target to generate assembly for a file
+board.cpp.s:
+	$(MAKE) -f CMakeFiles/tic-tac-toe.dir/build.make CMakeFiles/tic-tac-toe.dir/board.cpp.s
+.PHONY : board.cpp.s
 
 main.o: main.cpp.o
 
@@ -156,7 +183,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/tic-tac-toe.dir/build.make CMakeFiles/tic-tac-toe.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -165,7 +192,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/tic-tac-toe.dir/build.make CMakeFiles/tic-tac-toe.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -174,7 +201,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/tic-tac-toe.dir/build.make CMakeFiles/tic-tac-toe.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -184,11 +211,14 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... ttt"
+	@echo "... tic-tac-toe"
 	@echo "... edit_cache"
-	@echo "... ai.o"
-	@echo "... ai.i"
-	@echo "... ai.s"
+	@echo "... agent.o"
+	@echo "... agent.i"
+	@echo "... agent.s"
+	@echo "... board.o"
+	@echo "... board.i"
+	@echo "... board.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
