@@ -41,12 +41,21 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="347">
-                <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+              <first_editor relative-caret-position="-333">
+                <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
               </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -138,18 +147,18 @@
       <workItem from="1556340353395" duration="1215000" />
       <workItem from="1556341755546" duration="6012000" />
       <workItem from="1556373908764" duration="10077000" />
-      <workItem from="1556384395045" duration="25942000" />
+      <workItem from="1556384395045" duration="26521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48263000" />
+    <option name="totallyTimeSpent" value="48842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="-4" width="1861" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15096419" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15096419" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -161,7 +170,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.3291536" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30825496" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30825496" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3291536" />
       <window_info anchor="bottom" id="CMake" order="12" />
@@ -178,13 +187,6 @@
     <entry file="file://C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/agtctl.h" />
     <entry file="file://$PROJECT_DIR$/AI.h" />
     <entry file="file://$PROJECT_DIR$/gameManager.h" />
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4915" />
@@ -251,11 +253,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="347">
-            <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+          <first_editor relative-caret-position="-333">
+            <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />

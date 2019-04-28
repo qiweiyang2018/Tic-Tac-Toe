@@ -36,20 +36,25 @@ Corner: Four Corners of the board. Corners are the most important slots
 in this game. If the first move is placed at one of 4 corners, it
 generates the highest possibilities to win.
 
-
-![Corner](corner.png) 
+<p align="center">
+  <img width="200" height="200" src="corner.png">
+</p>
 
 Center: the very center slot of 3X3. Intuitively, center looks critical.
 However, the possibilities to win if the first move is placed in the
 center are less than placing in a corner. 
 
-![center](center.png)
+<p align="center">
+  <img width="200" height="200" src="center.png">
+</p>
 
 
 Side: slots are not the corners or the center. Sides are least valuable
 slots in the game. 
 
-![side](side.png)
+<p align="center">
+  <img width="200" height="200" src="side.png">
+</p>
 
 In this game, Player X always moves first, and player O moves following. 
 
@@ -75,21 +80,25 @@ Two header files are created to store two different classes. One is
 named "Board.h", and the other "Agent.h". Basically, Board class
 includes all the information about the game, like which slots are taken
 by whom, and which slots are empty. In addition, it judges if a game has
-ended whenever a player finishes a move. On the other side, Agent class
-represents players who can change the board class when a move is made.
-What's more, a sub-class, called "Ai", is inherited from Agent class,
-who can play against with a human using the optimal strategies described
-above.
+ended, a win, draw or pending, whenever a player finishes a move. On the
+other side, Agent class represents players who can change the
+information stored in board class when a move is made. What's more, a
+sub-class, called "Ai", is inherited from Agent class, who can play
+against with a human using the optimal strategies described above.
 
-#### 3.1 Board Class
+#### 3.1 Software environment
 
-#### 3.2 Agent Class
+This mini software was created in Ubuntu 16.04 with Cmake version 3.13. 
 
-#### 3.3 AI inheritance Class
+#### 3.2 Board Class
 
-#### 3.4 main function
+#### 3.3 Agent Class
 
+#### 3.4 AI inheritance Class
 
+#### 3.5 main function
 
-### 4. Summary
+### 4. Test Case
+
+### 5. Summary
 [reference] (http://www.cs.jhu.edu/~jorgev/cs106/ttt.pdf)
