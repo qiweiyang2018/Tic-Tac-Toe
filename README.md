@@ -1,4 +1,4 @@
-Tic-Tac-Toe Code Challenge
+<center>Tic-Tac-Toe Code Challenge</center>
 
 By Qiwei Yang
 
@@ -54,7 +54,8 @@ In this game, Player X always moves first.
    diagonally-opposite corner. If O then takes one of sides, O loses,
    otherwise a draw.
    
-3. If X begins with a side, which is a bad move for X. 
+3. If X begins with a side, which is a bad move for X, because its
+   possibility to win is greatly reduced. 
 
  
 [reference] (http://www.cs.jhu.edu/~jorgev/cs106/ttt.pdf)
