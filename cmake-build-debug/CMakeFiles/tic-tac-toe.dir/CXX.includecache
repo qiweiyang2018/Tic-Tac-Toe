@@ -10,19 +10,15 @@
 string
 -
 
-/home/qiwei/CLionProjects/tic-tac-toe/agent.cpp
-iostream
--
-random
--
-Agent.h
-/home/qiwei/CLionProjects/tic-tac-toe/Agent.h
-board.h
-/home/qiwei/CLionProjects/tic-tac-toe/board.h
-
 /home/qiwei/CLionProjects/tic-tac-toe/board.h
 vector
 -
 Agent.h
 /home/qiwei/CLionProjects/tic-tac-toe/Agent.h
+
+/home/qiwei/CLionProjects/tic-tac-toe/main.cpp
+iostream
+-
+board.h
+/home/qiwei/CLionProjects/tic-tac-toe/board.h
 

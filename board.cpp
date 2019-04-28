@@ -6,6 +6,7 @@
 #include <iostream>
 
 
+//print the game info for each step
 void Board::printBoard()
 {
 	string token;
@@ -93,7 +94,7 @@ pair<int, bool> Board::isDone()
 		return result;
 	}
 
-//	check if all spaces taken
+//	check if all spaces taken, if yes, game done
 	for (int i = 0; i < board.size(); ++i)
 	{
 		for (int j = 0; j < board[0].size(); ++j)
@@ -107,12 +108,12 @@ pair<int, bool> Board::isDone()
 		}
 
 	}
-
 	result.first = 0;
 	result.second = true;
 	return result;
 }
 
+//2 human players take moves alternatively, end when some one win or no space
 int Board::play()
 {
 	while(!isDone().second)
@@ -125,6 +126,27 @@ int Board::play()
 		printBoard();
 		cout << player2.name << ":";
 		player2.move(board);
+	}
+
+	return isDone().first;
+
+}
+
+//play with an AI, end when some one win or no space
+int Board::play(Ai p3)
+{
+	while(!isDone().second)
+	{
+		printBoard();
+		cout << player1.name << ":";
+		player1.move(board);
+		if (isDone().second)
+			break;
+		printBoard();
+		cout <<  p3.name << ":" << endl;
+		p3.autoMove(board);
+		if (isDone().second)
+			printBoard();
 	}
 
 	return isDone().first;

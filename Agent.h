@@ -29,14 +29,16 @@ private:
 
 class Ai : Agent
 {
+	friend class Board;
 public:
-    Ai(const string& difficulty = "medium");
+    Ai(const string& name = "AI-player");
 
+    bool checkWinLose(vector<vector<int>>&);
     void autoMove(vector<vector<int>>&);
-private:
 
+private:
 	string symbol;
 	string name;
-    double rand;
+    int step;
 };
 #endif //TTT_AGENT_H
