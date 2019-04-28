@@ -13,7 +13,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c90785ec-4be5-43bb-9a6c-f9a5a0b38a8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -42,8 +41,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="34" selection-start-column="34" selection-end-column="34" />
+              <first_editor relative-caret-position="347">
+                <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -139,18 +138,18 @@
       <workItem from="1556340353395" duration="1215000" />
       <workItem from="1556341755546" duration="6012000" />
       <workItem from="1556373908764" duration="10077000" />
-      <workItem from="1556384395045" duration="24290000" />
+      <workItem from="1556384395045" duration="25942000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46611000" />
+    <option name="totallyTimeSpent" value="48263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="-4" width="1861" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15096419" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15096419" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -162,9 +161,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.3291536" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.30825496" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30825496" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3291536" />
       <window_info anchor="bottom" id="CMake" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -255,8 +254,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="34" selection-start-column="34" selection-end-column="34" />
+          <first_editor relative-caret-position="347">
+            <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
