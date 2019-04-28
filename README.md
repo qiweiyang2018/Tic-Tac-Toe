@@ -63,15 +63,27 @@ In this game, Player X always moves first, and player O moves following.
 1. If X begins with a corner, the only chance that O does not lose is to
    take the center. Then X's best shot is to take the opposite corner of
    its first move. If O does not take a side at the 2nd step, X wins,
-   otherwise a draw.
-
+   otherwise a draw. See the picture below. 
+   
+   If X starts with a corner, O must take the center, otherwise lose.
+   Then X's optimal move is take right bottom corner. O must take one of
+   sides, otherwise lose. After step 4, its a draw. 
+<p align="center">
+<img width="200" height="200" src="opt1.png">
+</p>
 2. If X begins with the center, O must take one of corners, otherwise O
    loses. The only chance that X can possibly win is to take O's
    diagonally-opposite corner. If O then takes one of sides, O loses,
    otherwise a draw.
    
-3. If X begins with a side, which is a bad move for X, because its
-   possibility to win is greatly reduced. 
+   If X starts with the center, O must take one of corners, otherwise
+   lose. Then X's optimal move is take right bottom corner. O must take
+   one of corners remained, otherwise lose. After step 4, its a draw.
+<p align="center">
+<img width="200" height="200" src="opt2.png">
+</p>
+   
+3. If X begins with a side, X is hardly to win. 
 
 
 ### 3. Software Architecture
