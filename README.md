@@ -1,5 +1,6 @@
-<center>Tic-Tac-Toe Code Challenge</center>
-
+<p align="justify">
+  Tic-Tac-Toe Code Challenge
+</p>
 By Qiwei Yang
 
 ### Preface
