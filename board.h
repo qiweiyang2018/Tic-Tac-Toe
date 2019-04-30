@@ -13,21 +13,21 @@ using namespace std;
 class Board
 {
 
-//	friend class Agent;
-//	friend class Ai;
 public:
     Board(): board(3, vector<int>(3,0)), player1(),player2() {} //inline default constructor
-    Board(const string& level): board(3, vector<int>(3,0)), player1(), p3(level) {}
-//    bool checkValidMove(int);
+    Board(const string& level): board(3, vector<int>(3,0)), player1(), p3(level) {} //constructor for ai
 
 	string getName1() const { return player1.name;}
 	string getName2() const { return player2.name;}
 	string getName3() const { return p3.name;}
 	Ai getAI() { return p3;}
 	//~Board(); //built-in data type does not need destructors. Only dynamic memory needs
-	int play();
-    int play(Ai p3);
+	int play(); //two human players
+
+    int play(Ai p3); //overloading play() function; human vs Ai
+
 	void printBoard();
+
 	pair<int, bool> isDone(); //(1, true) player 1 win, (-1, true) player2 win, otherwise draw
 
 private:

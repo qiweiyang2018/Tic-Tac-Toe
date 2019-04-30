@@ -1,9 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/tic-tac-toe.dir/main.cpp.o"
-  "CMakeFiles/tic-tac-toe.dir/agent.cpp.o"
-  "CMakeFiles/tic-tac-toe.dir/board.cpp.o"
+  "CMakeFiles/tic-tac-toe.dir/main.cpp.obj"
+  "CMakeFiles/tic-tac-toe.dir/agent.cpp.obj"
+  "CMakeFiles/tic-tac-toe.dir/board.cpp.obj"
   "tic-tac-toe.pdb"
-  "tic-tac-toe"
+  "tic-tac-toe.exe"
+  "tic-tac-toe.exe.manifest"
+  "libtic-tac-toe.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -6,19 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/home/qiwei/CLionProjects/tic-tac-toe/Agent.h
+D:/ClionProjects/Tic-Tac-Toe/Agent.h
 string
 -
 
-/home/qiwei/CLionProjects/tic-tac-toe/board.h
+D:/ClionProjects/Tic-Tac-Toe/agent.cpp
+iostream
+-
+random
+-
+Agent.h
+D:/ClionProjects/Tic-Tac-Toe/Agent.h
+board.h
+D:/ClionProjects/Tic-Tac-Toe/board.h
+
+D:/ClionProjects/Tic-Tac-Toe/board.cpp
+board.h
+D:/ClionProjects/Tic-Tac-Toe/board.h
+iostream
+-
+
+D:/ClionProjects/Tic-Tac-Toe/board.h
 vector
 -
 Agent.h
-/home/qiwei/CLionProjects/tic-tac-toe/Agent.h
+D:/ClionProjects/Tic-Tac-Toe/Agent.h
 
-/home/qiwei/CLionProjects/tic-tac-toe/main.cpp
+D:/ClionProjects/Tic-Tac-Toe/main.cpp
 iostream
 -
 board.h
-/home/qiwei/CLionProjects/tic-tac-toe/board.h
+D:/ClionProjects/Tic-Tac-Toe/board.h
 
