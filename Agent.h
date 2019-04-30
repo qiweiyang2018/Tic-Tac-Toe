@@ -12,7 +12,7 @@ using namespace std;
 
 class Agent
 {
-	friend class Board;
+	friend class Board; //in order to change the board class member
 public:
 	Agent(); //default constructor
 
@@ -35,8 +35,9 @@ class Ai : Agent //inherit from Agent base class
 public:
     Ai(const string& name = "AI-player");
 
-    bool checkWinLose(vector<vector<int>>&);
-    void autoMove(vector<vector<int>>&);
+    bool checkWinLose(vector<vector<int>>&); //if two "X" or "O" are in a line, go to the third to win or prevent losing
+
+    void autoMove(vector<vector<int>>&); //algorithm for AI to choose the optimal move
 
 private:
 	string symbol;

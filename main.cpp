@@ -70,6 +70,8 @@ int main() {
 					scores[1]++;
 				else
 					scores[2]++;
+
+				cout << endl;
 				cout << "* * * * * * * * " << endl;
 				if (score == 1)
 					cout << board.getName1() << " Won! "<< endl;

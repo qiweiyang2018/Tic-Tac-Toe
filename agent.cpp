@@ -8,6 +8,7 @@
 using namespace std;
 
 int Agent::count = 0;
+
 Agent::Agent()
 {
     count++;
@@ -23,6 +24,7 @@ Agent::Agent()
     }
 }
 
+//check the slot if taken or not
 bool Agent::checkValidSpace(int num, const vector<vector<int>>& vec)
 {
     int row = (num - 1)/3;
@@ -33,6 +35,8 @@ bool Agent::checkValidSpace(int num, const vector<vector<int>>& vec)
     else
         return false;
 };
+
+
 void Agent::move(vector<vector<int>>& vec)
 {
     int num = 0;
